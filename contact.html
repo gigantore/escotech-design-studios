@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | ESCOTECH Design Studios</title>
+    <meta
+      name="description"
+      content="Tell us about your home service business. ESCOTECH Design Studios will handle the website, SEO, and launch."
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="ESCOTECH Design Studios home">
+          <svg class="logo-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect width="40" height="40" rx="10" fill="#fff" />
+            <path d="M10 9h20v4H15.6v3.2H28v4H15.6v3.2H30v4H10V9Z" fill="#FE5C1E" />
+            <rect x="26.4" y="10" width="3.8" height="3.8" fill="#4EE2EC" />
+          </svg>
+          <span class="brand-text">
+            <span class="brand-name">ESCOTECH</span>
+            <span class="brand-sub">DESIGN STUDIOS</span>
+          </span>
+        </a>
+        <nav class="nav" data-nav aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#examples">Website Examples</a>
+          <a href="./index.html#pricing">Pricing</a>
+          <a href="./index.html#process">Our Process</a>
+          <a href="./index.html#build">What We Build</a>
+          <a href="./index.html#reviews">Reviews</a>
+          <a href="./index.html#faqs">FAQs</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light mode"></button>
+          <a class="btn btn-primary" href="./contact.html" aria-current="page">Contact Us</a>
+          <button class="icon-btn menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-label="Open menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav data-open="false" aria-label="Mobile">
+        <a href="./index.html">Home</a>
+        <a href="./index.html#examples">Website Examples</a>
+        <a href="./index.html#pricing">Pricing</a>
+        <a href="./contact.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <main id="content" class="contact-hero">
+      <div class="wrap">
+        <h1>Let’s Get You Online.</h1>
+        <p class="lede">Tell us about your business and we’ll handle the rest.</p>
+        <form class="form" data-contact-form>
+          <label for="name">Name*</label>
+          <input id="name" name="name" required autocomplete="name" />
+          <span class="error">Name is required.</span>
+          <label for="phone">Phone*</label>
+          <input id="phone" name="phone" type="tel" required autocomplete="tel" />
+          <span class="error">Phone is required.</span>
+          <label for="email">Email*</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+          <span class="error">Email is required.</span>
+          <label for="biz">Business Name*</label>
+          <input id="biz" name="business" required />
+          <span class="error">Business name is required.</span>
+          <label for="site">Business Website (If Available)</label>
+          <input id="site" name="website" type="url" placeholder="https://" />
+          <label for="plan">Select Plan*</label>
+          <select id="plan" name="plan" required>
+            <option value="">Select Plan*</option>
+            <option>SEO-Optimized Website ($2,500)</option>
+            <option>Local SEO Growth ($1,250/mo)</option>
+            <option>Both — Website + SEO</option>
+            <option>Not sure yet</option>
+          </select>
+          <span class="error">Choose a plan.</span>
+          <button class="btn btn-primary btn-block" type="submit">Let’s Get Started</button>
+        </form>
+        <div class="success" data-success>
+          <h2>We have it.</h2>
+          <p>Thanks for the details. We’ll review your trade, market, and plan and follow up at the email you gave us.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <p>ESCOTECH Design Studios · Albany, New York</p>
+          <p><a href="mailto:hello@escotech.design">hello@escotech.design</a></p>
+        </div>
+        <div>
+          <h2>WHAT WE DO</h2>
+          <div class="footer-links">
+            <a href="./index.html#pricing">SEO-Optimized Websites</a>
+            <a href="./index.html#pricing">Local SEO Growth</a>
+          </div>
+        </div>
+        <div>
+          <h2>CONTACT US</h2>
+          <p>Serving businesses nationwide</p>
+        </div>
+        <div>
+          <h2>OFFICE HOURS</h2>
+          <p>Monday – Friday, 8am – 5pm EST</p>
+        </div>
+      </div>
+      <div class="wrap subfoot">
+        <span><a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms</a></span>
+        <span>© 2026 ESCOTECH Design Studios</span>
+      </div>
+    </footer>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
